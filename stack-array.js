@@ -1,4 +1,4 @@
-class Stack {
+export default class Stack {
     constructor(){
         this.items = [];
     }
@@ -34,6 +34,11 @@ stack.clear();
 console.log(stack.size());
 
 stack.push(8);
+console.log(stack.size());
+
+stack.push(10);
+stack.push(10);
+stack.push(10);
 console.log(stack.size());
 
 
